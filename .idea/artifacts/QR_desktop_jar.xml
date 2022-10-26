@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="QR_desktop:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/QR_desktop_jar</output-path>
+    <root id="archive" name="QR_desktop.jar">
+      <element id="module-output" name="QR_desktop" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../Program Files/Java/jars/zxing-j2se-1.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../Program Files/Java/javafx-sdk-19/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../Program Files/Java/javafx-sdk-19/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../Program Files/Java/javafx-sdk-19/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../Program Files/Java/javafx-sdk-19/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../Program Files/Java/javafx-sdk-19/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../Program Files/Java/javafx-sdk-19/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../Program Files/Java/javafx-sdk-19/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../Program Files/Java/javafx-sdk-19/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../../Program Files/Java/jars/zxing-core-2.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
