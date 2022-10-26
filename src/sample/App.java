@@ -6,6 +6,7 @@ import com.google.zxing.WriterException;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.image.BufferedImage;
@@ -40,7 +41,7 @@ public class App {
                             \nNumero Tel :""" + telField.getText() + """
                             \nResultat :""" + resultatField.getSelectedItem() + """
                             \n-----------
-                            \nlaboratoire d'analyse medicale DR Sami El-Kadhi\nContact: 71693468\nMF: 1218601GAP000
+                            
                             \n-----------""";
                     tempQR[0] = QRGenerator.generate(data);
                     System.out.println("reading temp file . !");
@@ -100,6 +101,6 @@ public class App {
     private void createUIComponents() {
         // TODO: place custom component creation code here
 
-        qrImage = new JLabel(new ImageIcon("heineken.png"));
+        qrImage = new JLabel(new ImageIcon(ImageEditor.getScaledImage(new ImageIcon("question-mark.png").getImage(), 200, 300)));
     }
 }
