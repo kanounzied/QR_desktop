@@ -41,7 +41,7 @@ public class App {
                             \nNumero Tel :""" + telField.getText() + """
                             \nResultat :""" + resultatField.getSelectedItem() + """
                             \n-----------
-                            
+                            \nlaboratoire d'analyse medicale DR Sami El-Kadhi\nContact: 71693468\nMF: 1218601GAP000
                             \n-----------""";
                     tempQR[0] = QRGenerator.generate(data);
                     System.out.println("reading temp file . !");
