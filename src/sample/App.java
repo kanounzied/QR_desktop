@@ -1,5 +1,8 @@
 package sample;
 
+//zxing core 2.0
+//zxing javase 1.7
+//jcalendar 1.4
 import com.google.zxing.NotFoundException;
 import com.google.zxing.WriterException;
 import com.toedter.calendar.JDateChooser;
