@@ -3,7 +3,6 @@ package sample;
 import com.google.zxing.NotFoundException;
 import com.google.zxing.WriterException;
 import com.toedter.calendar.JDateChooser;
-import org.jdatepicker.impl.JDatePickerImpl;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -57,7 +56,9 @@ public class App {
                             \nDate De Naissance :""" + simpleDateFormat.format(dateChooser.getDate()) + """
                             \nResultat :""" + resultatField.getSelectedItem() + """
                             \n-----------
-                            
+                            \nlaboratoire d'analyse medicale DR Sami El-Kadhi
+                            \nTel: 71693468
+                            \nMF: 1218601GAP000
                             \n-----------""";
                     //TODO: fassa5 ligne laboratoire
                     tempQR[0] = QRGenerator.generate(data);
